@@ -6,6 +6,7 @@ excerpt: "Simple code to create overlapping groups."
 tags: [dplyr, tidyverse, R]
 comments: true
 ---
+# Overlapping Groups with Dplyr
 
 This notebook shows some simple code to create and work with overlapping groups in a tidyverse framework.
 
@@ -13,8 +14,7 @@ This is based on a questions I originally asked [here](https://stackoverflow.com
 
 ------------------------------------------------------------------------
 
-1. Example data
----------------
+## 1. Example data
 
 Lets use the famous iris data set as an example. This is data on flowers and their measurements.
 
@@ -46,8 +46,7 @@ glimpse(iris)
     ## $ Petal.Width  <dbl> 0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.3, 0.2, 0.2, 0.1,...
     ## $ Species      <fctr> setosa, setosa, setosa, setosa, setosa, setosa, ...
 
-2. Simple Summary
------------------
+## 2. Simple Summary
 
 It is easy to summarize across Species. For example the average sepal and petal length by species.
 
@@ -64,8 +63,7 @@ iris %>%
     ## 2 versicolor        5.936        4.260
     ## 3  virginica        6.588        5.552
 
-2. Overlapping group summaries
-------------------------------
+## 3. Overlapping group summaries
 
 Now lets suppose we want to summarize with overlapping groups. We now want summary figures across all groups, and just Setosa and Versicolor.
 
