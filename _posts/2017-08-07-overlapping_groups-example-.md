@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Overlapping Groups with Dplyr"
+date: 2017-08-07
+excerpt: "Simple code to create overlapping groups."
+tags: [dplyr, tidyverse, R]
+comments: true
+---
+
 This notebook shows some simple code to create and work with overlapping groups in a tidyverse framework.
 
 This is based on a questions I originally asked [here](https://stackoverflow.com/questions/42933058/summarizing-with-overlapping-groups-using-dplyr).
