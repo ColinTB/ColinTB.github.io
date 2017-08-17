@@ -48,4 +48,4 @@ ggplot(iris, aes(y = Sepal.Length, x = Sepal.Width, colour = Species)) +
   geom_point() 
 ```
 
-![](test_blog_post_scatter_v1_files/figure-markdown_github/unnamed-chunk-2-1.png)
+![](/images/test_blog_post_scatter_v1_files/figure-markdown_github/unnamed-chunk-2-1.png)
