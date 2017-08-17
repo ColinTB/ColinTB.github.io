@@ -10,7 +10,7 @@ comments: false
 
 I currently work as a microeconomics and industrial organization researcher in Toronto, Canada. 
 
-I am also interested in behavioural economics, data science and machine learning. I graduated with a Master's in Economics from the University of Toronto in 2015. 
+I am also interested in behavioural economics, data science and visualization. I graduated with a Master's in Economics from the University of Toronto in 2015. 
 
 ## Contact
 
