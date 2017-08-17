@@ -11,6 +11,9 @@ comments: true
 
 This is how to anyone can start making plots with ggplot2 in 2 easy steps. No experience necessary!
 
+[Codeschool's Try R](http://tryr.codeschool.com/) is an easy way to review syntax and learn basic operations. It runs in your browser so you do not need to download R or Rstudio to start learning.
+
+
 ## 1. Example data
 
 Lets use the famous iris data set as an example. This is data on flowers and their measurements.
