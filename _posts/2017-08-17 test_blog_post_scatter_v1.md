@@ -1,6 +1,12 @@
-This notebook is to test placing images in markdown.
+---
+layout: post
+title: "Test Uploading Images"
+date: 2017-08-17
+excerpt: "Test uploading a simple scatter plot."
+tags: [dplyr, tidyverse, R, iris]
+comments: true
+---
 
-------------------------------------------------------------------------
 
 1. Example data
 ---------------
