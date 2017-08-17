@@ -1,36 +1,24 @@
 ---
 layout: post
-title: "Test Uploading Images"
-date: 2017-08-17
-excerpt: "Test uploading a simple scatter plot."
-tags: [dplyr, tidyverse, R, iris]
+title: "Super easy ggplot2 example"
+date: 2017-08-15
+excerpt: "Plotting has never been this easy."
+tags: [ggplot2, tidyverse, R, iris]
 comments: true
 ---
 
+## Intro
 
-1. Example data
----------------
+This is how to anyone can start making plots with ggplot2 in 2 easy steps. No experience necessary!
+
+## 1. Example data
 
 Lets use the famous iris data set as an example. This is data on flowers and their measurements.
 
 ``` r
 library(tidyverse)
 ```
-
-    ## Warning: Installed Rcpp (0.12.12) different from Rcpp used to build dplyr (0.12.11).
-    ## Please reinstall dplyr to avoid random crashes or undefined behavior.
-
-    ## Loading tidyverse: ggplot2
-    ## Loading tidyverse: tibble
-    ## Loading tidyverse: tidyr
-    ## Loading tidyverse: readr
-    ## Loading tidyverse: purrr
-    ## Loading tidyverse: dplyr
-
-    ## Conflicts with tidy packages ----------------------------------------------
-
-    ## filter(): dplyr, stats
-    ## lag():    dplyr, stats
+Take a glance at the data using the `glimpse` function.
 
 ``` r
 glimpse(iris)
@@ -44,10 +32,9 @@ glimpse(iris)
     ## $ Petal.Width  <dbl> 0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.3, 0.2, 0.2, 0.1,...
     ## $ Species      <fctr> setosa, setosa, setosa, setosa, setosa, setosa, ...
 
-2. Scatter Plot
----------------
+## 2. Scatter Plot
 
-This is a simple scatter plot.
+Lets make a scatter wherer the sepal length is the y-axis, width is the x-axis, and the species is the colour.
 
 ``` r
 ggplot(iris, aes(y = Sepal.Length, x = Sepal.Width, colour = Species)) +
