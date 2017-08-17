@@ -37,7 +37,7 @@ glimpse(iris)
 
 ## 2. Scatter Plot
 
-Lets make a scatter wherer the sepal length is the y-axis, width is the x-axis, and the species is the colour.
+Lets make a scatter where the sepal length is the y-axis, width is the x-axis, and the species is the colour.
 
 ``` r
 ggplot(iris, aes(y = Sepal.Length, x = Sepal.Width, colour = Species)) +
