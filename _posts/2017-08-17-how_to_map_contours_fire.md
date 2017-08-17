@@ -14,7 +14,6 @@ Follow these 4 steps to create probability based contour maps in R. You will nee
 ------------------------------------------------------------------------
 
 ## 1. Setup
---------
 
 ### a) Load packages
 
@@ -51,9 +50,8 @@ fires.raw <- read_xls(file.path(temp2, "fire station x_y.xls"), col_names = c("s
 unlink(c(temp, temp2))
 rm(temp, temp2)
 ```
-
-## 2. Convert coordinate system
 ----------------------------
+## 2. Convert coordinate system
 
 Converting from UTM system to a lat & lon system. Notice the CRS projection specifies the appropriate zone `+zone=17`.
 
@@ -65,8 +63,8 @@ fires <- as.data.frame(fires.sp) %>%
   set_colnames(c("lon", "lat"))
 ```
 
-## 3. Initial Maps
 ---------------
+## 3. Initial Maps
 
 ### a) Download Map
 
@@ -123,8 +121,8 @@ ggmap(to.map) +
 
 ![](/images/how_to_map_contours_fire_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
-## 4. Draw a specific contour
 --------------------------
+## 4. Draw a specific contour
 
 Use the `kde` function from the ks package to calculate contours which encircle a specific % of the fire stations. We can do some basic plots to see the kernel densities. We will also draw a contour around 50% of the stations.
 
@@ -204,8 +202,8 @@ ggmap(to.map) +
 
 ![](/images/how_to_map_contours_fire_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
-Draw specific contour function
 ------------------------------
+## 5. Draw specific contour function
 
 This is a general purpose function for drawing a series of contours and adding them to a map plot. It takes three arguments; 1) the contour levels to plot as a numeric vector (eg. 20, 30, ..), the data of points as a matrix of lat and lons, and a kde object (the output of the `kde` function).
 
