@@ -30,8 +30,11 @@ library(ggmap)
 library(magrittr)
 library(stringr)
 library(rgeos)
+```
+Optionally, you can add a `file.drawer` path to permanently save maps once they are downloaded, and avoid repeatedly downloading the same map.
 
-drawer.path <- "C:\\Users\\cbloom\\Documents\\ggmap_file_drawer/ggmap"
+``` r
+drawer.path <- "path_to_drawer"
 ```
 
 ### b) Download and Import the Data
