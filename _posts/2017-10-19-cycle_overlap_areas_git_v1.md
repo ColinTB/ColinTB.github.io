@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Mapping the best areas for cyclists in Toronto"
+date: 2017-10-19
+excerpt: "An introduction to showing overlap areas with ggmap."
+categories: rblogging
+tags: [ggmap, ggplot, rgeos, tidyverse]
+comments: true
+---
+
 Follow these 4 steps to map out what areas are within 500m of a Bicycle share station and a bike shop. This tutorial is meant as an introduction to making static maps using ggmap, ggplot and R.
 
 It would be convenient for people who live and work in these areas to see if they like biking (using the nearby share stations), and then invest in a bike of their own (purchase and upkeep from the nearby shop).
