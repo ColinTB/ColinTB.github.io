@@ -193,7 +193,7 @@ To deploy the app
 shinyApp(ui = ui, server = server)
 ```
 
-Below is the app in action. The hosted app is [here](https://colintb.shinyapps.io/comingsoon/).
+Below is the app in action. The hosted app is [here](https://colintb.shinyapps.io/bike_app/).
 
 <div class="window">
   <div class="bar">
