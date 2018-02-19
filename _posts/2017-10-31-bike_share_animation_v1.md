@@ -201,7 +201,7 @@ Below is the app in action. The hosted app is [here](https://colintb.shinyapps.i
     <div class="bubble yellow"></div>
     <div class="bubble green"></div>
   </div>
-  <iframe src="https://colintb.shinyapps.io/comingsoon/">Share bikes</iframe>
+  <iframe src="https://colintb.shinyapps.io/bike_app/">Share bikes</iframe>
 </div>
 
 <br>
